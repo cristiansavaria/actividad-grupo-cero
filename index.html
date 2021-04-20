@@ -2,173 +2,162 @@
 <html lang="en">
 
 <head>
-    <title>Grupo Cero Art</title>
-
+    <title>Grupo cero</title>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <link rel="stylesheet" href="estilos.css">
-
 </head>
 
 <body>
 
-
-    <div class="container">
-        <div class="jumbotron text-center">
-            <h1>Art Grupo <span color>Cero 0</span></h1>
-            <p>El mejor arte nacional e internacional</p>
-
-            <a class="ingresar" href="#">-Ingresar-</a>
-            <a class="registrarse" href="registro.html">-Registrarse-</a>
-            <img class="carrito" src="icon/carrito1.jpg" width="30px" alt="">
+    <div class="d-grid gap-2 d-md-block">
+        <div class="container">
+            <a href="inicio-sesion.html"><button class="btn btn-secondary" type="button">Iniciar Sesion</button></a>
+        <a href="registro.html"><button class="btn btn-secondary" type="button">Registrarse</button></a>
+        </div>
+    </div>
 
 
-
-            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                <!-- Brand -->
-                <a class="navbar-brand" href="index.html">Bienvenidos</a>
-
-                <!-- Toggler/collapsibe Button -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-
-                <!-- Navbar links -->
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
+                <a class="navbar-brand" href="#">
+                    <img class="logo-barra" src="logo/logo final.png" alt="logo barra">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="galeria.html">Galeria</a>
+                            <a class="nav-link  " href="#">Conocenos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="qSomos.html">Quienes Somos</a>
+                            <a class="nav-link " href="galeria.html">Galeria</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <a class="nav-link " href="#">Contacto</a>
                         </li>
-
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Artista,Obra,Concepto"
-                                aria-label="Search">
-                            <button type="button" class="btn btn-secondary">Buscar</button>
-                        </form>
-
                     </ul>
+                    <form class="d-flex">
+                        <input class="form-control  me-2" type="search" placeholder="Artista,Obra,Concepto..."
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
                 </div>
-            </nav>
-        </div>
-
-    </div>
-
+            </div>
+        </nav>
+    </header>
 
 
 
 
     <div class="container">
-        <div class="jumbotron">
-            <div id="demo" class="carousel slide" data-ride="carousel">
-                <ul class="carousel-indicators">
-                    <li data-target="#demo" data-slide-to="0" class="active"></li>
-                    <li data-target="#demo" data-slide-to="1"></li>
-                    <li data-target="#demo" data-slide-to="2"></li>
-                </ul>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/obranacional1.webp" alt="Los Angeles" width="1100" height="500">
-                        <div class="carousel-caption">
-                            <h3>Obras Nacionales</h3>
-                            <p>Obra de Arte Abstracta</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/obrainternacional1.webp" alt="Chicago" width="1100" height="500">
-                        <div class="carousel-caption">
-                            <h3>Obras Internacionales</h3>
-                            <p>Obra inspirada en la Fuerza</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="img/obranacional2.webp" alt="New York" width="1100" height="500">
-                        <div class="carousel-caption">
-                            <h3>Apoya el Arte</h3>
-                            <p>Conoce el Arte de Crear</p>
-                        </div>
+
+        <div id="demo" class="carousel slide " data-ride="carousel">
+
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+                    <a href="index.html"><img src="img/obranacional1.webp" alt="Los Angeles" width="1200"
+                            height="500"></a>
+                    <div class="carousel-caption">
+                        <h3>Obras Nacionales</h3>
+                        <p>Obra Chilena</p>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                </a>
-                <a class="carousel-control-next" href="#demo" data-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                </a>
+                <div class="carousel-item">
+                    <a href="index.html"><img src="img/obrainternacional1.webp" alt="Chicago" width="1200"
+                            height="500"></a>
+                    <div class="carousel-caption">
+                        <h3>Obras Internacionales</h3>
+                        <p>Obra Española</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="index.html"><img src="img/obranacional2.webp" alt="New York" width="1200" height="500"></a>
+                    <div class="carousel-caption">
+                        <h3>Apoya el Arte</h3>
+                        <p>Ayuda a los Artistas</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    </div>
+
+
+
+    <section>
+        <div class="container">
+            <div class="jumbotron bg-light">
+
+                <div class="row">
+
+
+                    <div class="col-12 col-sm-4 text-center">
+                        <img class="img-fluid" src="img/fondo.jpg" width="200px" alt="">
+                        <h5>Imagen 1</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                    <div class="col-12 col-sm-4 text-center">
+                        <img class="img-fluid" src="img/arte clasico.jpg" width="200px" alt="">
+                        <h5>Imagen 2</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+                    <div class="col-12 col-sm-4 text-center">
+                        <img class="img-fluid" src="img/obra img p.jpg" width="200px" alt="">
+                        <h5>Imagen 3</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div>
+
+
+
+
+
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container">
+    <div class="container  ">
+    <footer>
+
         <div class="jumbotron">
-            <h2>
-                Arte <span>Moderno</span> 
-            </h2>
-            <div class="container">
-                <img src="img/artemoderno1.jpg" class="rounded-circle " width="500px" alt="fondop">
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, minus suscipit iure vero
-                    accusantium architecto velit consequatur neque molestias ipsa ipsum cupiditate molestiae laborum
-                    saepe doloremque consectetur sint dolores sequi?
-                </p>
-                <h2>
-                    Arte <span>Clasico</span> 
-                </h2>
-                <img src="img/arte clasico.jpg" class="rounded-circle " width="500px" alt="fondop">
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, minus suscipit iure vero
-                    accusantium architecto velit consequatur neque molestias ipsa ipsum cupiditate molestiae laborum
-                    saepe doloremque consectetur sint dolores sequi?
-                </p>
 
-            </div>
+            <img class="imagen-footer " src="logo/logo final.png" alt="">
+
+            <h5 class="subtitulo text-dark ">
+                Siguenos en redes sociales!
+            </h5>
         </div>
-    </div>
 
-
-
-
-
-
-
-
-
-    <div class="container">
-        <div class="jumbotron">
-            <footer>
-                <h5 id="siguenos">
-                    Siguenos:
-
-                </h5>
-
-
-                <h5 id="mediop">
-                    Medios de pago:
-                </h5>
-                <img class="webpay"  src="img/07_Logo_webpay_plus-800px.png" width="100px" alt="webpay" >
-
-            </footer>
-
-            
-        </div>
-    </div>
-
-
-
+    </footer>
     
+</div>
+
+
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

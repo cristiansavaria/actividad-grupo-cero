@@ -1,36 +1,9 @@
-body{
-    background-color: rgb(247, 242, 242);
+.logo-barra{
+   width: 70px;
+   padding: 0px 0;
 }
 
-span{
-    color: rgb(228, 134, 11);
-}
-
-
-
-.ingresar{
-    
-    color: rgb(10, 12, 11);
-    font-family: cursive;
-}
-.registrarse{
-    float: ;
-    color: rgb(10, 12, 11);
-    font-family: cursive;
-}
-
-
-
-h2{
-
-text-align: center;
-}
-
-.webpay{
-    float: right;
-}
-
-#mediop{
-    text-align: right;
-}
-
+.imagen-footer{
+    width: 70px;
+    padding: 0px 0;
+ }
